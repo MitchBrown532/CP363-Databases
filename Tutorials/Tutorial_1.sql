@@ -38,7 +38,7 @@ INSERT INTO Vendors
     VALUES (6, 'honda', '203 north street', 'Yokoda', 'Akida','203-112', NULL, 'Japan');
     
 INSERT INTO Invoices (invoice_id, invoice_number, invoice_date, invoice_total, payment_total, credit_total, vendor_id)
-    VALUES (110,'INV12345', '2023-09-29', 1000.00, 0.00, 0.00, 6)
+    VALUES (110,'INV12345', '2023-09-29', 1000.00, 0.00, 0.00, 6);
 
 -- Update the vendor's invoice_id
 UPDATE Vendors
